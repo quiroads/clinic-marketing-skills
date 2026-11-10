@@ -1,0 +1,32 @@
+{
+  "name": "quiroads-clinic-marketing",
+  "displayName": "QuiroAds Clinic Marketing",
+  "version": "1.0.0",
+  "description": "Four skills for people who market health clinics: audit who owns and controls a clinic's Meta Ads assets, review ads and landing pages against platform policies and health advertising rules, set up lead follow-up over WhatsApp, SMS and calls, and turn first visits into care plans. By QuiroAds, a marketing agency for chiropractic clinics.",
+  "author": {
+    "name": "QuiroAds",
+    "email": "ajustame@quiroads.com",
+    "url": "https://quiroads.com"
+  },
+  "homepage": "https://quiroads.com",
+  "repository": "https://github.com/quiroads/clinic-marketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "clinic",
+    "clinics",
+    "healthcare-marketing",
+    "chiropractic",
+    "patient-acquisition",
+    "meta-ads",
+    "ad-compliance",
+    "lead-follow-up",
+    "whatsapp",
+    "patient-retention",
+    "care-plans"
+  ],
+  "icon": "./.claude-plugin/icon.png",
+  "documentationUrl": "https://github.com/quiroads/clinic-marketing-skills#readme",
+  "supportUrl": "https://quiroads.com/contact",
+  "privacyPolicyUrl": "https://quiroads.com/privacy-policy",
+  "termsOfServiceUrl": "https://quiroads.com/terms"
+}
