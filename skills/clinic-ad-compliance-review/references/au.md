@@ -31,7 +31,7 @@ It applies to practitioners, people who aren't registered and companies. Whoever
 
 <!-- flag-examples:start -->
 - A1: «Finally sciatica-free after two visits!», «5 stars: my headaches are gone»
-- A2: «free spinal check», «$49 first visit», «2-for-1»
+- A2: «free spinal check», «[price] first visit», «2-for-1»
 - A3: «Book before your back gets worse!», «Lock in 24 visits and save 30%»
 - A4: «safe and effective», «pain-free»
 - A5: «Dr Lee», «spine specialist», «specialises in sports injuries»

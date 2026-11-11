@@ -86,8 +86,10 @@ Defaults of this skill's method: the clinic can change any of them (days, hours,
 
 ### Lead forms and health data
 
+Certainty high unless marked.
+
 - **Minimal form:** name, phone, preferred time, plus the consent box. Meta's instant forms may not ask about conditions, treatments or insurance [M1].
-- **Symptom questions** make the form collect health data [EU1 art. 9]. Only with a separate, unticked consent box, and those answers never reach the pixel, the Conversions API or ad audiences [M2]. Don't ask about symptoms over WhatsApp (its policy bars health information where the law requires extra safeguards), nor for card numbers [W1].
+- **Symptom questions** make the form collect health data [EU1 art. 9]. Only with a separate, unticked consent box, and those answers never reach the pixel, the Conversions API or ad audiences (inference, medium) [M2]. Don't ask about symptoms over WhatsApp (its policy bars health information where the law requires extra safeguards), nor for card numbers [W1].
 - **Consent record** per lead: when, which form, the wording it showed, what was ticked.
 - **Message content** follows the clinic's ad rules: no promise of relief or results, no patient testimonials, no false urgency. In Spain RD 1907/1996 covers one-to-one promotion too [ES5].
 

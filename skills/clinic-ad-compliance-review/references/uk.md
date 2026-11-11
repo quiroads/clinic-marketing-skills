@@ -42,9 +42,9 @@ Rules checked: November 2026
 
 U10's phrases break the rule when the item is paid for in the package price; U11's, when a compulsory assessment fee or a plan condition is left out; U12's, when they aren't true.
 
-## 3. Conditions each profession may name (ASA)
+## 3. Conditions each profession can claim to treat (ASA)
 
-**Chiropractors** may name only these conditions (ASA, 1 June 2023); images and surrounding text mustn't stretch past them [UKA7]:
+**Chiropractors** can claim to treat these conditions without further evidence (ASA, 1 June 2023); images and surrounding text mustn't stretch past them [UKA7]:
 
 - ankle sprain (short-term management); cramp; elbow pain and tennis elbow arising from associated musculoskeletal conditions of the back and neck, but not isolated occurrences;
 - headache arising from the neck (cervicogenic); joint pains; hip and knee pain from osteoarthritis, as an adjunct to core treatments and exercise;

@@ -54,12 +54,19 @@ In Codex or Work mode in the ChatGPT desktop app, the marketplace also shows up 
 npx skills add quiroads/clinic-marketing-skills --agent cursor
 ```
 
-The repository root also holds a `plugin.json` in the open Agent Plugins format, which Cursor reads.
+The repository root also holds a `plugin.json` in the open Agent Plugins format.
 
 ### Gemini CLI
 
 ```sh
 gemini extensions install https://github.com/quiroads/clinic-marketing-skills
+```
+
+### Hermes Agent
+
+```sh
+hermes plugins install quiroads/clinic-marketing-skills --no-enable
+hermes plugins enable quiroads-clinic-marketing
 ```
 
 ## Skills
@@ -75,7 +82,7 @@ Once a skill is installed, ask your agent in your own words, for example «who c
 
 ## Privacy and support
 
-The skills are plain instructions in `SKILL.md` files. They run inside your own agent, bundle no scripts or MCP servers, ask for no credentials, connect to no ad platform or clinic software, read no web pages and send nothing to QuiroAds. They work only from what you paste or describe to your agent: ad copy, what you see on a screen, counts and stages. Each skill never needs patient names or records: it works with counts, stages and templates, so don't paste any into the chat. They are not legal advice: they report the problems they find with the rules as checked on a stated date, and the final decision on an ad belongs to the platform and the regulator. Maintainers build and test this repository with private tooling; the plugin itself is only the files you see here.
+The skills are plain instructions in `SKILL.md` files. They run inside your own agent, bundle no scripts or MCP servers, ask for no credentials, connect to no ad platform or clinic software, read no web pages and send nothing to QuiroAds. They work only from what you paste or describe to your agent: ad copy, what you see on a screen, counts and stages. A skill never needs patient names or records, so don't paste any into the chat. They are not legal advice: they report the problems they find with the rules as checked on a stated date, and the final decision on an ad belongs to the platform and the regulator. Maintainers build and test this repository with private tooling; the plugin itself is only the files you see here.
 
 - Privacy policy: https://quiroads.com/privacy-policy
 - Terms: https://quiroads.com/terms

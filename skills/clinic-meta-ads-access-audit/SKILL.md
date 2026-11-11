@@ -34,11 +34,11 @@ Ask in one message what the user hasn't said: country and region (comunidad aut�
 
 **Screen by screen.** Paths that start with Settings are in Meta Business Suite. One or two screens per message: give the path, say what to copy, and ask the user to paste or describe it. Staff names can be replaced by roles. Many lists show only to people with full access: without it, start with M1. If the user has already described the screens, go straight to the report.
 
-**When the screen doesn't match.** Meta changes its menus. Its Help Center writes «Settings» and puts partners under «Settings > Users > Partners»; its developer docs still say «Business Settings»; its Spanish interface has its own labels, which this skill doesn't list. If the user can't find a menu or sees something else:
+**When the screen doesn't match.** Meta changes its menus. Its Help Center writes «Settings» and puts partners under «Settings > Users > Partners»; its developer docs still say «Business Settings»; its Spanish interface has its own labels, not listed here. If the user can't find a menu or sees something else:
 
 1. Don't offer a path that isn't in this skill. Ask what they see: the left-hand menu, the page title, the portfolio name at the top.
 2. Offer only the alternatives above, and check they are in the clinic's business portfolio, not a Page's settings or another portfolio.
-3. If People and Partners are missing, the user probably lacks full access: say so and give M1's fix in short.
+3. If People and Partners are missing, the user probably lacks full access [S1]: say so and give M1's fix in short [S5].
 4. Continue from what they describe. If it still can't be found, mark the check «not verified: screen not found» and move on.
 
 ## Checks, screen by screen
@@ -133,7 +133,7 @@ Each domain, «Verified» or «Not verified», its Partners tab and Domain acces
 
 - **Forms.** Ask whether any form asks about pain or symptoms. Those answers must stay out of the pixel, the Conversions API and audiences (inference, medium): they are health data, inferred data included (GDPR art. 9; CJEU C-21/23; UK: ICO special category guidance) [L2]. In Spain the health-care exception doesn't cover marketing and, for chiropractic and osteopathy, is unlikely to fit (medium). Drop those questions or add a separate, unticked explicit-consent box. Meta's instant forms must not ask about conditions, treatments or insurance [S22].
 - **EU and UK.** Where cookie consent is required (Meta names the EU), the Business Tools Terms require verifiable consent before the pixel stores or reads anything on the device [S15]. Ask whether the pixel loads before the banner is accepted. UK cookie law itself isn't covered here.
-- **Australia.** In June 2026 the Privacy Commissioner found that pixels tracking visitors to health websites and retargeting them collect sensitive information, which needs consent. The OAIC advises: don't send it, express opt-in, consider no pixel where a visit alone reveals health information, say so in the privacy policy, offer an opt-out (APP 7). [L1] Check loading before consent, condition and booking pages, and audiences from site visitors. High (OAIC release).
+- **Australia.** In June 2026 the Privacy Commissioner found that pixels tracking visitors to health websites and retargeting them collect sensitive information, which needs consent. The OAIC advises: don't send it, express opt-in, consider no pixel where a visit alone reveals health information, say so in the privacy policy, offer an opt-out (APP 7). Every Australian clinic is covered, whatever its size [L1]. Check loading before consent, condition and booking pages, and audiences from site visitors. High (OAIC release).
 - **US.** If the clinic bills insurers electronically (HIPAA), pixels on booking, intake, thank-you or portal pages can disclose protected health information, and a cookie banner is not a HIPAA authorization [L3]. State health-privacy laws aren't covered.
 
 ## Report format
@@ -202,7 +202,7 @@ Keep what applies; friendly, no blame. Fill in only what the user said; leave th
 3. **Source and certainty.** Each finding cites its source and says high or medium; inferences stay labelled. Every code cited is listed in the report's Sources block with its full URL. If something isn't covered here, say so.
 4. **No promises, no reassurance.** Meta decides claims, disputes, reviews, removals and transfers. Never say the setup meets Meta's rules or the law: use the report's last line. Don't open with reassurance («lo más importante está bien»): say what the screens show and what wasn't checked.
 5. **Figures.** Only Meta's limits quoted here and the user's own facts: no statistics, prices or percentages.
-6. **Patients.** The skill never needs patient names or records. If the user shares lead or audience data, don't repeat it; work with counts.
+6. **Patients.** If the user shares lead or audience data, don't repeat it; work with counts.
 7. **Outdated advice.** Configuring the 8 Aggregated Event Measurement events, or verifying the domain for the pixel, is outdated [S19]: never advise it.
 8. **Language.** The user's language; in Spanish, tú throughout, with no gender assumed for the user.
 
@@ -232,7 +232,7 @@ Help Center articles: https://www.facebook.com/business/help/ plus the number.
 - [S20] Business verification: 1095661473946872, 2058515294227817
 - [S21] Catalogs: 832599310690431
 - [S22] Instant form questions: 219356599612120
-- [L1] OAIC (Australia): https://www.oaic.gov.au/privacy/privacy-guidance-for-organisations-and-government-agencies/organisations/tracking-pixels-and-privacy-obligations · https://www.oaic.gov.au/news/media-centre/privacy-commissioner-finds-privacy-breaches-in-third-party-tracking-pixel-investigation
+- [L1] OAIC (Australia): https://www.oaic.gov.au/privacy/privacy-guidance-for-organisations-and-government-agencies/organisations/tracking-pixels-and-privacy-obligations · https://www.oaic.gov.au/news/media-centre/privacy-commissioner-finds-privacy-breaches-in-third-party-tracking-pixel-investigation · https://www.oaic.gov.au/privacy/australian-privacy-principles/australian-privacy-principles-guidelines/chapter-b-key-concepts
 - [L2] GDPR, CJEU C-21/23, LOPDGDD: https://eur-lex.europa.eu/legal-content/ES/TXT/HTML/?uri=CELEX:02016R0679-20160504 · https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:62023CJ0021 · https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673
 - [L3] HHS (US): https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/hipaa-online-tracking/index.html
 

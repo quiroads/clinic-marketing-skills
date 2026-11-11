@@ -91,7 +91,7 @@ The practical reading of S1 to S12 for a centre that isn't authorised:
 
 Two groups, presented differently.
 
-**Internal criterion, not law.** These four words are kept out of Spanish chiropractic ads by an internal criterion of this skill. In the report call it «lista de palabras de riesgo alto (criterio interno, no es ley)», grade it «Riesgo», and never say who keeps it.
+**Internal criterion, not law.** These four words are kept out of Spanish chiropractic ads by this skill's own criterion, not law. In the report call it «lista de palabras de riesgo alto (criterio interno, no es ley)» and grade it «Riesgo».
 
 <!-- flag-examples:start -->
 - «dolor», «dolores», «migraña», «migrañas»
