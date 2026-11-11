@@ -30,12 +30,14 @@ It applies to practitioners, people who aren't registered and companies. Whoever
 | A8 | Australian Consumer Law: no misleading or deceptive conduct, no false testimonials; no fake reviews, no suppressing or editing negative ones; any review incentive applies whatever the rating and is disclosed. | AU7 s.18, s.29(1)(e)(f); AU8 |
 
 <!-- flag-examples:start -->
-- A1: «Finally sciatica-free after two visits!», «5 stars: my headaches are gone», a patient success story, a star-rating carousel with clinical comments
-- A2: «free spinal check» with paid X-rays, «$49 first visit» without terms, «2-for-1»
+- A1: «Finally sciatica-free after two visits!», «5 stars: my headaches are gone»
+- A2: «free spinal check», «$49 first visit», «2-for-1»
 - A3: «Book before your back gets worse!», «Lock in 24 visits and save 30%»
-- A4: «safe and effective», «pain-free», «we've got you covered» for a list of conditions
-- A5: «Dr Lee» alone, «spine specialist», «specialises in sports injuries»
+- A4: «safe and effective», «pain-free»
+- A5: «Dr Lee», «spine specialist», «specialises in sports injuries»
 <!-- flag-examples:end -->
+
+A1 also covers a patient success story and a star-rating carousel with clinical comments. A2's phrases break the rule when X-rays are charged or the terms are missing; A4 also covers an unqualified list of conditions the service «can help»; A5's «Dr» when the profession isn't named next to it.
 
 ## 3. Chiropractic: what Ahpra's examples allow
 

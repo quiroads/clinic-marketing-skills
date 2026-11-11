@@ -16,10 +16,12 @@ Rules checked: November 2026
 | F6 | Free or discounted services offered to Medicare or Medicaid patients can be an illegal inducement; only items of nominal value as the OIG defines it, never cash (medium). If the clinic bills Medicare or Medicaid, the offer must exclude those patients or be checked by a healthcare attorney. | US6 |
 
 <!-- flag-examples:start -->
-- F1: «fixes sciatica», «cures headaches», «boosts immunity», «heals soft tissue injuries»
-- F2: a patient quote with a result and nothing about typical results, or «results not typical» as the only fix
-- F4: «happy with your visit? Leave us a review» sent only to satisfied patients
+- F1: «fixes sciatica», «cures headaches», «boosts immunity»
+- F2: «results not typical»
+- F4: «happy with your visit? Leave us a review»
 <!-- flag-examples:end -->
+
+F2 also covers a patient quote with a result and nothing about typical results; «results not typical» alone isn't the fix. F4's request breaks the rule when it goes only to satisfied patients.
 
 ## 2. Texas
 
@@ -29,8 +31,10 @@ Rules checked: November 2026
 | T2 | Chiropractors: a «free» service lists all the component services it includes; research-based claims identify the study; no guarantees, cures, claims outside chiropractic scope, results beyond scientific proof, or a false expectation of harm from not being treated (medium: text read through a reproduction). | US8 22 TAC 77.1, 77.4 |
 
 <!-- flag-examples:start -->
-- T1: «Don't wait until it's permanent», any patient testimonial
+- T1: «Don't wait until it's permanent»
 <!-- flag-examples:end -->
+
+T1 also covers any patient testimonial.
 
 ## 3. Florida
 
@@ -47,7 +51,7 @@ THE PATIENT AND ANY OTHER PERSON RESPONSIBLE FOR PAYMENT HAS A RIGHT TO REFUSE T
 ```
 
 <!-- flag-examples:start -->
-- FL3: «best chiropractor in Miami», «top-rated care», «the most advanced technique», «Trust the experts»
+- FL3: «best chiropractor in Miami», «top-rated care», «the most advanced technique»
 <!-- flag-examples:end -->
 
 ## 4. California

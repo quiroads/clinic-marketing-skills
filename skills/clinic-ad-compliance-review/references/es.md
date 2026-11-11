@@ -17,7 +17,7 @@ It covers advertising «directa o indirecta, masiva o individualizada» of servi
 
 | # | Rule | Source |
 |---|---|---|
-| S1 | Only authorised health centres may use words that suggest health activity. Their ads keep to the authorised services and show the registration number from the regional health authority (or the number of a specific health-advertising authorisation). A centre that isn't authorised: flag every word that implies health activity. The law doesn't list the words: treat treatment, patient, diagnosis, therapy and named conditions as high risk (medium on the word list). | ES5 art. 6.2 |
+| S1 | Only authorised health centres may use words that suggest health activity. Their ads keep to the authorised services and show the registration number from the regional health authority (or the number of a specific health-advertising authorisation). A centre that isn't authorised: flag every word that implies health activity. The law doesn't list the words: treat treatment, patient, diagnosis, therapy and named conditions as high risk (medium on the word list). | ES5 art. 6.2; ES8 (Madrid, Decreto 51/2006 art. 21 b)) |
 | S2 | Advertising only the services covered by the authorisation; anything else needs prior authorisation from the health authority (also beauty, slimming and aesthetic centres). | ES1 art. 6 |
 | S3 | No promise of certain relief or cure («seguridades de alivio o curación cierta»). | ES1 art. 4.4 |
 | S4 | No testimonials from patients, real or supposed, from health professionals or from famous people. High in ads and sales messages; medium for review widgets on the clinic's own website. Remove them, don't just check them; offer neutral facts instead (years open, practitioners, qualifications). | ES1 art. 4.7 |
@@ -35,17 +35,19 @@ It covers advertising «directa o indirecta, masiva o individualizada» of servi
 **Severity in Spain.** S1's word list, S5 for chiropractic and osteopathy, S12's «Dr.» and S14 are medium: a phrase that breaks only those is «Riesgo». It is «Impide publicar» when a high rule also applies to it (S3, S4, S6, S7, S15, or a high platform rule such as P1).
 
 <!-- flag-examples:start -->
-- S1 (centre not authorised): «tratamiento», «paciente», «diagnóstico», «terapia», «clínica médica»
-- S3: «elimina tu dolor», «solución definitiva», «resultados garantizados», «100 %», «vive sin dolor», «libre de migrañas»
-- S4: a patient's story, «Ana volvió a correr gracias a nosotros», star-rating quotes, patient videos
-- S5: «tratamos la causa real», «corregimos la hernia», «la quiropráctica cura las migrañas», «tu columna está bloqueada»
-- S6: «sin fármacos», «sin medicamentos», «deja los analgésicos», «evita el quirófano», «no necesitas ir al médico», «adelgaza», «duerme sin insomnio»
-- S7: «tratamiento natural», «alivio natural», «forma natural de curar»
+- S1: «tratamiento», «paciente», «diagnóstico», «terapia», «clínica médica»
+- S3: «elimina tu dolor», «solución definitiva», «resultados garantizados», «100 %»
+- S4: «Ana volvió a correr gracias a nosotros»
+- S5: «corregimos tu columna», «corregimos la hernia», «la quiropráctica soluciona la ciática»
+- S6: «sin fármacos», «deja los analgésicos», «evita el quirófano», «no necesitas ir al médico», «alternativa al fisio», «adelgaza», «duerme sin insomnio»
+- S7: «tratamiento natural para…», «forma natural de curar»
 - S8: «avalado por Sanidad», «técnica usada en hospitales», «mejora tu rendimiento deportivo»
-- S9, S12: a white coat with medical cues, «Dr.» without explanation, a chiropractor called «fisioterapeuta», «médico» or «sanitario»
+- S9, S12: «Dr.», «fisioterapeuta», «médico», «sanitario»
 - S11: «milagro», «energía», «sanación»
 - S14: «¿Tu espalda se está degenerando?»
 <!-- flag-examples:end -->
+
+S1's words count for a centre that isn't authorised. S4 also covers a patient's story, star-rating quotes and patient videos. S9 and S12 also cover a white coat with medical cues, and «Dr.», «fisioterapeuta», «médico» or «sanitario» used for a chiropractor or osteopath without that title.
 
 ## 3. Consumer law, reviews and lead forms
 
@@ -55,14 +57,16 @@ It covers advertising «directa o indirecta, masiva o individualizada» of servi
 | S16 | No false «limited time» claim: «solo hoy», countdowns and «últimas plazas» only if true, with evidence. | ES17 art. 23.4 |
 | S17 | «Gratis», «regalo» or «sin coste» only if the patient pays nothing: a free first visit that charges for X-rays or tests, or depends on buying a bono, breaks it. | ES17 art. 22.5 |
 | S18 | A stated price is the full final price, taxes and extra charges included, with the essential characteristics; a bono shows sessions, validity and key conditions next to the price; nothing material hidden in small print. Art. 20.1 c) has new wording from RDL 32/2026, whose approval by Congress wasn't verified. | ES16 art. 20; ES17 arts. 5, 7 |
-| S19 | A page that shows reviews says whether and how the clinic checks they come from real patients. Since 28/12/2025, reviews must be about services used in the previous 30 days. Fake, commissioned or distorted reviews are always unfair. In ads, S4 still bans patient testimonials. | ES16 art. 20.4; ES17 arts. 27.7, 27.8 |
+| S19 | A page that shows reviews says whether and how the clinic checks they come from real patients. Since 28/12/2025, reviews must be about services used in the previous 30 days (high on the text, medium on enforcement). Fake, commissioned or distorted reviews are always unfair. In ads, S4 still bans patient testimonials. | ES16 art. 20.4; ES17 arts. 27.7, 27.8 |
 | S20 | Content that patients or influencers were paid for, in money or free sessions, is labelled as advertising. | ES17 art. 26 |
 | S21 | A lead form that asks about pain or symptoms collects health data: make those fields optional or remove them, and add a separate, unticked explicit-consent box. The health-care exception doesn't cover marketing (for chiropractic and osteopathy it's unlikely to fit at all: medium). | EU2 art. 9; ES20 art. 9; EU3 |
 
 <!-- flag-examples:start -->
-- S16: «solo hoy», «últimas 30 plazas», «oferta limitada»
-- S17: «primera visita gratis» when X-rays are charged, «gratis al contratar tu bono»
+- S16: «solo hoy», «últimas plazas», «oferta limitada»
+- S17: «primera visita gratis», «gratis al contratar tu bono»
 <!-- flag-examples:end -->
+
+S16's phrases are a problem only when they aren't true; S17's first one, when something is charged (X-rays, tests) or a bono must be bought.
 
 ## 4. Regional rules
 
@@ -70,7 +74,7 @@ It covers advertising «directa o indirecta, masiva o individualizada» of servi
 |---|---|---|
 | Euskadi | Every health ad needs prior authorisation, including ads from centres that aren't health centres; the authorisation number appears on every ad. A health centre shows the qualification of the professional responsible; any other centre says «CENTRO NO SANITARIO». Don't let it launch until the clinic gives its number. Decreto 550/1991 itself wasn't read: its scope comes from the procedure page. | ES12 |
 | Cataluña | Decret 203/2026 (DOGC 5 November 2026, in force 20 days after publication; Decret 151/2017, which it repeals, had equivalent rules): authorised centres advertise only their authorised activity and include their registry code; any other advertising is evaluated and authorised beforehand, except advertising about activities that aren't health activities; the trade name doesn't mislead about the authorised activities; shared multi-practitioner spaces don't present themselves as one health centre. | ES10 art. 5 |
-| Madrid | Show the registration number; advertising beyond the authorisation needs prior authorisation. A draft decree that would add a health-advertising commission is pending, not approved. | ES8; ES9 |
+| Madrid | Show the registration number (Decreto 51/2006 art. 21 b), quoted on the regional page); advertising beyond the authorisation needs prior authorisation. A draft decree that would add a health-advertising commission is pending, not approved. | ES8; ES9 |
 | Andalucía | Show the registration number; a misleading ad, or one beyond the authorisation, is a serious infringement (original 2008 text; later amendments not checked). | ES11 |
 | Comunitat Valenciana | No regional pre-approval of medical advertising since 2014 (medium: the regional health law wasn't read); the state rules apply. | ES13 |
 | Other regions | Not checked: apply the state rules and say the region wasn't checked. | — |
@@ -85,14 +89,21 @@ The practical reading of S1 to S12 for a centre that isn't authorised:
 
 ## 6. High-risk words in Spanish chiropractic ads
 
-These words are kept out of Spanish chiropractic ads by an internal criterion of this skill, **not a legal list**. In the report call it «lista de palabras de riesgo alto (criterio interno, no es ley)», grade it «Riesgo», and never say who keeps it. It fits S1 and S5 for a centre that isn't authorised; an authorised centre may use health terms for its own units, although condition promises are still banned (S3, S5).
+Two groups, presented differently.
+
+**Internal criterion, not law.** These four words are kept out of Spanish chiropractic ads by an internal criterion of this skill. In the report call it «lista de palabras de riesgo alto (criterio interno, no es ley)», grade it «Riesgo», and never say who keeps it.
 
 <!-- flag-examples:start -->
-- Avoided: «dolor», «dolores», «migraña», «migrañas»
-- Best avoided: «curar», «cura», «curación», «sanar», «enfermedad», «enfermedades», «diagnóstico», «diagnosticar», «ciática», «hernia», «hernias», «lumbalgia», «cervicalgia», «escoliosis», «contractura», «contracturas», «lesión», «lesiones»
+- «dolor», «dolores», «migraña», «migrañas»
 <!-- flag-examples:end -->
 
-Its alternatives: «molestias», «bienestar», «moverte mejor»; «plan de cuidados» instead of «tratamiento».
+**High risk under S1 and S5.** For a centre that isn't authorised, these words suggest health activity (S1, medium on the word list); next to a promise or a condition they make a therapeutic claim (S5). Cite S1 or S5 for them, not the internal criterion.
+
+<!-- flag-examples:start -->
+- «curar», «cura», «curación», «sanar», «enfermedad», «enfermedades», «diagnóstico», «diagnosticar», «ciática», «hernia», «hernias», «lumbalgia», «cervicalgia», «escoliosis», «contractura», «contracturas», «lesión», «lesiones»
+<!-- flag-examples:end -->
+
+An authorised centre may use health terms for its own units, although condition promises are still banned (S3, S5). Alternatives: «molestias», «bienestar», «moverte mejor»; «plan de cuidados» instead of «tratamiento».
 
 ## 7. Safer patterns in Spanish
 

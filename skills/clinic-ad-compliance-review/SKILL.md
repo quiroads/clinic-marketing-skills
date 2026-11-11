@@ -135,9 +135,9 @@ Headings and column names in the user's language; each fact once.
 - [code]: [full URL of each source cited above]
 ```
 
-- **Rows:** the exact phrase quoted from the user's text, most serious first. In Spanish the columns are «Frase», «Regla», «Fuente», «Certeza», «Gravedad», «Versión propuesta», and the severities «Impide publicar», «Riesgo», «Mejora».
-- **Closing line,** always: «I found no other problems with these rules, checked November 2026. Final approval belongs to [Meta / Google] and, for health claims, to [the clinic's regulator or health authority]. This is not legal advice.» In Spanish: «No he encontrado otros problemas con estas reglas, revisadas en noviembre de 2026. La aprobación final es de [Meta / Google] y, en las afirmaciones de salud, de [la autoridad sanitaria o el colegio de la clínica]. No es asesoría legal.» For a country not covered, add: «[Country]'s own law isn't covered here.»
-- **«¿Cumple?», «is this compliant?», «will Meta approve it?»:** answer with the problems found and the closing line. Never a yes.
+- **Rows:** the exact phrase quoted from the user's text, most serious first, with any patient's name replaced by «[patient]» («[paciente]» in Spanish). In Spanish the columns are «Frase», «Regla», «Fuente», «Certeza», «Gravedad», «Versión propuesta», and the severities «Impide publicar», «Riesgo», «Mejora».
+- **Closing line,** always. After findings: «I found no other problems with these rules, checked November 2026. Final approval belongs to [Meta / Google] and, for health claims, to [the clinic's regulator or health authority]. This is not legal advice.» In Spanish: «No he encontrado otros problemas con estas reglas, revisadas en noviembre de 2026. La aprobación final es de [Meta / Google] y, en las afirmaciones de salud, de [la autoridad sanitaria o el colegio de la clínica]. No es asesoría legal.» With no findings at all, the same line without «other» / «otros»: «I found no problems with these rules, checked November 2026…» / «No he encontrado problemas con estas reglas, revisadas en noviembre de 2026…». For a country not covered, add: «[Country]'s own law isn't covered here.»
+- **«¿Cumple?», «is this compliant?», «will Meta approve it?»:** open with the count of problems found («I found [count] problems with these rules» / «He encontrado [count] problemas con estas reglas»), then the report and the closing line. Never open with yes, no or a verdict of your own («no lo daría por bueno»).
 
 ## Safer phrasing, by type
 
@@ -161,7 +161,7 @@ Country files add their own patterns. Placeholders hold no figures.
 3. **Source and certainty.** Every row cites its source code and says high or medium; inferences stay labelled; only high-certainty rules block publishing. Every code cited is listed in the report's Sources block with its full URL. If something isn't covered, say so.
 4. **The law as it is.** State each rule as the source says it, even when many clinics do otherwise. Personal attributes are Meta's policy, not law: say which is which.
 5. **Figures.** Only the user's own (prices, dates) and the limits quoted in these rules: no statistics, penalties or prices of your own.
-6. **Patients.** If the piece names a patient or quotes a review, refer to «the patient» or «the review» outside the quoted phrase; don't repeat names, phones or health details.
+6. **Patients.** If the piece names a patient or quotes a review, write «[patient]» («[paciente]») for the name, even inside the quoted phrase, and «the patient» or «the review» elsewhere; don't repeat names, phones or health details.
 7. **AUTOCONTROL.** Cite and link its code; never paste its text.
 8. **Language and voice.** The user's language; in Spanish, tú throughout, with no gender assumed for the user. The report never names the skill's publisher or offers its services.
 

@@ -34,11 +34,13 @@ Rules checked: November 2026
 - U3: «cure», «fix it for good», «guaranteed», «100 %», «risk-free», «permanent», «no side effects»
 - U4, U5: «safe because it's natural», «drug-free so safer», «avoid surgery», «ditch the painkillers», «no need to see your GP»
 - U6: «your spine is degenerating, act before it's too late»
-- U10: «free X-ray with your plan», «free report», «free sessions» paid for in the package price
-- U11: «from £29» with a compulsory assessment fee or a plan condition left out
-- U12: «only 3 spots left», «price valid today only» when not true
-- U13: «the best chiropractor in Derby», «No.1 clinic», «leading»
+- U10: «free X-ray with your plan», «free report», «free sessions»
+- U11: «from £29»
+- U12: «only 3 spots left», «price valid today only»
+- U13: «the best chiropractor in [town]», «No.1», «leading»
 <!-- flag-examples:end -->
+
+U10's phrases break the rule when the item is paid for in the package price; U11's, when a compulsory assessment fee or a plan condition is left out; U12's, when they aren't true.
 
 ## 3. Conditions each profession may name (ASA)
 
@@ -55,9 +57,9 @@ Rules checked: November 2026
 
 ASA examples of acceptable wording [UKA8]: «Conditions we treat: Sciatica»; «Chiropractic can help with neck pain caused by poor posture or awkward sitting positions»; «We treat minor sports injuries such as [an accepted condition]». Context can make an accepted claim unacceptable.
 
-**Osteopaths** (ASA, 1 November 2022) [UKA11]: arthritic pain; circulatory problems; cramp; digestion problems; fibromyalgia; frozen shoulder, shoulder and elbow pain, tennis elbow (arising from associated musculoskeletal conditions of the back and neck, not isolated occurrences); headache arising from the neck; joint pains, including hip and knee pain from osteoarthritis as an adjunct to core treatments and exercise; general, acute and chronic backache and back pain (not from injury or accident); generalised aches and pains; lumbago; migraine prevention; minor sports injuries; muscle spasms; neuralgia; tension and inability to relax; rheumatic pain; sciatica; uncomplicated mechanical neck pain (not after injury, i.e. whiplash). Conditions specific to babies, children or pregnancy (colic, reflux, glue ear, plagiocephaly, sleeping or feeding problems and others) are unlikely to be acceptable.
+**Osteopaths** (ASA page dated 1 November 2022, checked live on the ASA site on 2026-11-10; this list is a summary of that page, not a verbatim copy) [UKA11]: arthritic pain; circulatory problems; cramp; digestion problems; fibromyalgia; frozen shoulder, shoulder and elbow pain, tennis elbow (arising from associated musculoskeletal conditions of the back and neck, not isolated occurrences); headache arising from the neck; joint pains, including hip and knee pain from osteoarthritis as an adjunct to core treatments and exercise; general, acute and chronic backache and back pain (not from injury or accident); generalised aches and pains; lumbago; migraine prevention; minor sports injuries; muscle spasms; neuralgia; tension and inability to relax; rheumatic pain; sciatica; uncomplicated mechanical neck pain (not after injury, i.e. whiplash). Conditions specific to babies, children or pregnancy (colic, reflux, glue ear, plagiocephaly, sleeping or feeding problems and others) are unlikely to be acceptable.
 
-**Physiotherapists** (ASA, 20 February 2024) [UKA12]: as statutory regulated professionals, likely accepted for general aches and pains, arthritic pain, backache, back pain, circulatory problems, cramp, digestion problems, joint pains, lumbago, muscle spasms, neuralgia, fibromyalgia, minor sports injuries and tensions; other conditions need documentary evidence, most likely clinical trials.
+**Physiotherapists** (ASA page dated 20 February 2024, checked live on the ASA site on 2026-11-10; summarised, not copied verbatim) [UKA12]: as statutory regulated professionals, likely accepted for general aches and pains, arthritic pain, backache, back pain, circulatory problems, cramp, digestion problems, joint pains, lumbago, muscle spasms, neuralgia, fibromyalgia, minor sports injuries and tensions; other conditions need documentary evidence, most likely clinical trials.
 
 ## 4. Titles, registration and chiropractic claims
 
