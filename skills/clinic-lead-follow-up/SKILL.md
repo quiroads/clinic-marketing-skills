@@ -52,9 +52,9 @@ Defaults of this skill's method: the clinic can change any of them (days, hours,
 | Owner or manager | Sets the hours and the cap, keeps the consent box on every form, reviews the measurement sheet each week. |
 | AI assistant, if one answers | Says in its first message that it is the clinic's virtual assistant; hands over to a person when asked or stuck, as WhatsApp requires for automated chats [W1]. |
 
-**Without a CRM:** the same messages, sent by hand from the WhatsApp Business app; one row per lead in the clinic's own sheet (arrival, first contact, attempts, stage, consent); a daily check of who is due. The agent never needs to see that sheet.
+**Without a CRM:** the same messages, sent by hand from the WhatsApp Business app; one row per lead in the clinic's own sheet (arrival, first contact, attempts, stage, consent); a daily check of who is due.
 
-**Stages:** New → In conversation → Booked → Attended (won) → Started a plan (if tracked). Side exits: Needs a person, No-show, Cancelled, Parked, Do not contact.
+**Stages:** New → In conversation → Booked → Attended (won) → Started a plan. Side exits: Needs a person, No-show, Cancelled, Parked, Do not contact.
 
 ### Sequence and stop rules
 
@@ -71,7 +71,7 @@ Defaults of this skill's method: the clinic can change any of them (days, hours,
 4. **«Not now» is a marketing opt-out:** no more promotional messages; park the lead and answer only if they write.
 5. **Any clear no** («stop», «BAJA», «don't contact me», in any words) takes the lead off every message and call list, on every channel, the same day, with a note of when.
 6. **Undelivered** (no WhatsApp on that number): the same messages by SMS if the consent covers SMS. Never leave a lead with nothing.
-7. **Cap:** [maximum] unanswered attempts per lead, messages and calls together, set by the clinic within its country's limits (box below). Count attempts, not conversations.
+7. **Cap:** [maximum] unanswered attempts per lead, messages and calls together, set by the clinic within its country's limits (box below). Count attempts, not conversations. In Florida and Oklahoma the method also keeps every call, asked for or not, to three in 24 hours.
 8. **Parked leads** get no promotional messages unless they consented to marketing.
 
 **Calls nobody asked for** are the clinic's choice: within the cap and the hours, from a number that shows (never hidden), with the call opening below.
@@ -103,7 +103,7 @@ Platform rules, not law: keep them out of the country box. Certainty high unless
 
 ## Scripts
 
-Placeholders hold no figures: the clinic fills them. Give the scripts in the user's language; the Spanish uses tú. Every promotional message names the clinic and ends with the opt-out. Without buttons (SMS, or messages sent by hand): the booking link, and «Reply CALL» / «Responde LLAMAR» instead of «Call me».
+Give the scripts in the user's language; the Spanish uses tú. Every promotional message names the clinic and ends with the opt-out. Without buttons (SMS, or messages sent by hand): the booking link, and «Reply CALL» / «Responde LLAMAR» instead of «Call me».
 
 **Message 1** (template, marketing). Buttons «Book» / «Call me» · «Reservar cita» / «Llámame».
 > Hola, {{nombre}}. Soy [persona], de [clínica]. Hemos recibido tu solicitud de [oferta]. En la primera visita [qué incluye]; dura unos [minutos] y cuesta [precio]. Elige día y hora aquí: [enlace]. ¿Prefieres que te llamemos? Pulsa «Llámame». Si no quieres más mensajes, responde BAJA.
@@ -145,7 +145,7 @@ Then answer their questions, offer two times («[day] at [time] or [day] at [tim
 
 ## Consent box
 
-Unticked, next to the submit button, on every form that feeds the sequence. A lead who doesn't tick it gets an answer to their own request only (the booking or call they asked for), with no promotional sequence; in the US, no automated marketing text without prior express written consent [US1].
+Unticked, next to the submit button, on every form that feeds the sequence. A lead who doesn't tick it gets an answer to their own request only (the booking or call they asked for), by phone or on the channel they used, since they haven't opted in to WhatsApp [W1][W2], and no promotional sequence; in the US, no automated marketing text without prior express written consent [US1].
 
 - **Spain, UK, Australia:**
   > ☐ Quiero que [clínica] me escriba por WhatsApp y SMS y me llame sobre mi solicitud y sus servicios. Puedo darme de baja cuando quiera respondiendo BAJA.
@@ -190,8 +190,8 @@ Only the clinic's country box goes in the answer, with law only; the scripts abo
 
 **United States**
 - Marketing calls or texts by autodialer or artificial or prerecorded voice need prior express written consent: the US box, stored with timestamp, form version and IP [US1 (a)(2), (f)(9)]. Don't treat CRM texts as exempt (medium: it depends on the tool); whether an AI voice counts is not verified (medium).
-- Sales calls and texts only 8 a.m.–9 p.m. in the lead's local time [US1 (c)(1)]. Florida: calls 8 a.m.–8 p.m. and no more than three in 24 hours on the same subject [FL2 s.501.616(6)]. Oklahoma: the same, and caller ID never blocked [OK1 775C.4].
-- Florida: the consent says it is not a condition of purchase; a call made at the lead's express request is not «unsolicited» under that consent rule [FL1 s.501.059], which says nothing about hours: keep 8 a.m.–8 p.m. and the three-call limit for every call [FL2].
+- Sales calls and texts only 8 a.m.–9 p.m. in the lead's local time [US1 (c)(1)]. Florida: commercial solicitation calls 8 a.m.–8 p.m. and no more than three in 24 hours on the same subject [FL2 s.501.616(6)]. Oklahoma: the same, and caller ID never blocked [OK1 775C.4]. Whether these cover a call the lead asked for isn't verified (medium).
+- Florida: the consent says it is not a condition of purchase; a call made at the lead's express request is not «unsolicited» under that consent rule [FL1 s.501.059].
 - Do Not Call: an enquiry allows sales calls and texts for three months; after that, numbers on the National Do Not Call Registry need fresh permission. Keep an internal do-not-call list and honour requests within 10 business days [US1 (c)(2), (d), (f)(5), (f)(15)].
 - Opt-out: «stop», «cancel», «unsubscribe», the other words the rule lists, or any reasonable wording ends all marketing; one confirmation text with no marketing is allowed [US1 (a)(10), (a)(12)]. New FCC opt-out rules take effect on 25 November 2026 (medium on their final text): recheck before relying on a single opt-out channel [US2].
 
@@ -231,17 +231,17 @@ In Spanish the closing line is «Reglas revisadas en noviembre de 2026. No es as
 2. **No patient data.** If the user shares leads with names, phone numbers or health details, don't repeat any of them, not even a first name. Say once that you don't need them, group the leads by stage with a count per stage (the user's own row numbers are fine), and leave the list in the clinic's own tool.
 3. **Figures.** Only the clinic's own (marked as the clinic's), this method's defaults, the limits quoted here and the Spain report line with its scope. No statistics, conversion rates or prices of your own.
 4. **Source and certainty.** Every legal or platform rule cites its code and says high or medium; inferences stay labelled. Every code cited is listed in the answer's Sources block with its full URL. If something isn't covered here, say so.
-5. **No approval, no reassurance.** Never say the system «cumple», meets the law or that a platform or regulator will accept it: close the law box with the closing line. Asked «is this legal?» or «¿cumple?»: the problems found, or «No he encontrado problemas con estas reglas, revisadas en noviembre de 2026» (or its English version), and final approval belongs to the platform and the clinic's regulator. Don't open with reassurance: open with the diagnosis. The law goes in the country box only; method choices are never presented as law.
+5. **No approval, no reassurance.** Never say the system «cumple», meets the law or that a platform or regulator will accept it: close the law box with the closing line. Asked «is this legal?» or «¿cumple?»: the problems found, or «No he encontrado problemas con estas reglas, revisadas en noviembre de 2026», and final approval belongs to the platform and the clinic's regulator. Don't open with reassurance: open with the diagnosis. The law goes in the country box only; method choices are never presented as law.
 6. **Language and voice.** The user's language; in Spanish, tú throughout (vosotros only for the clinic's team as a group), with no gender assumed for the user or the lead. The answer never names the skill's publisher or offers its services; the Spain report line is the only exception.
 
 ## Sources
 
 - [W1] WhatsApp Business Messaging Policy: https://business.whatsapp.com/policy
-- [W2] WhatsApp opt-in: https://developers.facebook.com/documentation/business-messaging/whatsapp/getting-opt-in
-- [W3] WhatsApp pricing: https://developers.facebook.com/documentation/business-messaging/whatsapp/pricing
-- [W4] WhatsApp template categorization: https://developers.facebook.com/documentation/business-messaging/whatsapp/templates/template-categorization
-- [W5] WhatsApp per-user marketing limits: https://developers.facebook.com/documentation/business-messaging/whatsapp/templates/marketing-templates/per-user-limits
-- [W6] WhatsApp marketing messages, availability: https://developers.facebook.com/documentation/business-messaging/whatsapp/marketing-messages/get-started
+- [W2] Opt-in: https://developers.facebook.com/documentation/business-messaging/whatsapp/getting-opt-in
+- [W3] Pricing: https://developers.facebook.com/documentation/business-messaging/whatsapp/pricing
+- [W4] Template categorization: https://developers.facebook.com/documentation/business-messaging/whatsapp/templates/template-categorization
+- [W5] Per-user marketing limits: https://developers.facebook.com/documentation/business-messaging/whatsapp/templates/marketing-templates/per-user-limits
+- [W6] Marketing messages, availability: https://developers.facebook.com/documentation/business-messaging/whatsapp/marketing-messages/get-started
 - [M1] Meta, questions prohibited on instant forms: https://www.facebook.com/business/help/219356599612120
 - [M2] Meta Business Tools Terms: https://www.facebook.com/legal/terms/businesstools
 - [EU1] GDPR: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02016R0679-20160504
@@ -263,6 +263,6 @@ In Spanish the closing line is «Reglas revisadas en noviembre de 2026. No es as
 - [AU1] ACMA, Spam Act 2003, avoid sending spam: https://www.acma.gov.au/avoid-sending-spam
 - [AU2] ACMA, Spam Act 2003, dealing with spam: https://www.acma.gov.au/dealing-with-spam
 - [AU3] ACMA, Spam Act 2003, common issues and mistakes: https://www.acma.gov.au/telemarketing-and-e-marketing-common-issues-and-mistakes
-- [AU4] ACMA, Do Not Call Register Act 2006, dealing with telemarketing: https://www.acma.gov.au/say-no-to-telemarketers
+- [AU4] ACMA, Do Not Call Register Act 2006 and Telemarketing Industry Standard, dealing with telemarketing: https://www.acma.gov.au/say-no-to-telemarketers
 
 Skill published by QuiroAds: https://quiroads.com
