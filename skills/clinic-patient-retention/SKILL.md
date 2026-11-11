@@ -28,12 +28,12 @@ Ask in one message only what the user hasn't said:
 
 1. Country; in the US, the state.
 2. Clinic type and the practitioner's profession (in Spain the cooling-off rule depends on it).
-3. How it works today: first visit and report on separate days or together, who presents the plan (practitioner, assistant, front desk), the plan options and prices, how patients pay, and whether plans are ever sold or paid by phone, WhatsApp or online.
+3. How it works today: first visit and report on separate days or together, who presents the plan (practitioner, assistant, front desk), the plan options and prices, how patients pay, and how the plan is agreed: at the visit, or ever entirely by phone, WhatsApp or online, with no visit before.
 4. What the clinic counts: new patients a month, how many start a plan, finish it, renew.
 
 Build with what you have; each missing fact goes under «Pending» as a question. Mark the clinic's figures as the clinic's; never fill a gap with a typical value.
 
-Open with a short diagnosis against the method below, one line per gap that the user's own facts show (anything unknown is a «Pending» question, never a gap): legal gaps first (a pack longer than the plan, terms not given before payment, remote sales without the cooling-off), then the visits, the follow-up and the measurement.
+Open with a short diagnosis against the method below, one line per gap that the user's own facts show, including each problem the user describes (anything unknown is a «Pending» question, never a gap): legal gaps first (a pack longer than the plan, terms not given before payment, plans agreed entirely at a distance without the cooling-off), then the visits, the follow-up and the measurement.
 
 ## The method
 
@@ -130,7 +130,7 @@ Messages that offer something (to patients who didn't start, renewals, reactivat
 | [number] visits left | Assistant | Book the reassessment. |
 | End of plan | Practitioner | Reassessment: repeat the checks and compare. Then the recommendation (discharge, a new phase or maintenance), presented like visit 2, the full option first. Never renewed without it; maintenance only when the reassessment supports it, never as something everyone needs. |
 | 3 months with no visit and none booked | Assistant | Reactivation by group, in this order: stopped mid-plan, finished the plan, maintenance, never started. Away more than a year: a new assessment, not the old plan. |
-| After a visit, at the same point for every patient | Assistant | Review request: to everyone, never only the happy ones, no satisfaction question first, no reward. |
+| After a visit, at the same point for every patient | Assistant | Review request: to everyone, never only the happy ones, no satisfaction question first, no reward. The law on review requests isn't covered here; say so if asked. |
 
 ### Scripts
 
@@ -157,8 +157,8 @@ Give the scripts in the user's language; the Spanish uses tú.
 **Reassessment due:**
 > Hola, {{nombre}}, te quedan [número] visitas del plan. En la visita [número] repetimos las pruebas para ver cómo has avanzado. ¿Te la reservo el [día]?
 
-**Reactivation** (stopped mid-plan; the visits left only if prepaid):
-> Hola, {{nombre}}, soy [persona], de [clínica]. Hace tiempo que no te vemos y queríamos saber cómo estás. Te quedan [número] visitas de tu plan; si quieres retomarlo, te busco hueco: [enlace]. Si no quieres más mensajes, responde BAJA.
+**Reactivation** (stopped mid-plan; the visits left only if prepaid; their expiry only if it was in the terms given before payment, and only inside this message, never as a separate one):
+> Hola, {{nombre}}, soy [persona], de [clínica]. Hace tiempo que no te vemos y queríamos saber cómo estás. Te quedan [número] visitas de tu plan [y vencen el (fecha), según sus condiciones]; si quieres retomarlo, te busco hueco: [enlace]. Si no quieres más mensajes, responde BAJA.
 
 **Review request:**
 > Hola, {{nombre}}, gracias por venir a [clínica]. ¿Nos cuentas tu experiencia en Google? Aquí tienes el enlace: [enlace].
@@ -171,6 +171,7 @@ Count by the month of the first visit, with the clinic's own definitions (for ex
 | --- | --- |
 | First visit → report | Patients who came to visit 2 ÷ patients who came to visit 1. |
 | Report → plan | Patients who started a plan ÷ patients who came to visit 2. |
+| First visit → plan | Patients who started a plan ÷ patients who came to visit 1. |
 | Plan completed | Patients who reached the reassessment ÷ patients who started a plan. |
 | Renewal | Patients who continued after the reassessment (new phase or maintenance) ÷ patients reassessed. |
 | Reactivation | Lapsed patients who booked again ÷ lapsed patients messaged. |
@@ -179,19 +180,19 @@ Reference, not a target (Spain, chiropractic): «Chiropractic Cost per New Patie
 
 ## What the law asks, by country
 
-Only the clinic's country box goes in the answer, with law only; the scripts above already follow it. Certainty is high unless marked medium.
+Only the clinic's country box goes in the answer, with law only; the scripts above already follow it. Give every line of that box; when a line depends on a fact you don't have (how the plan is agreed, the practitioner's profession), keep it and ask under «Pending». Certainty is high unless marked medium.
 
 **Spain**
-- No promise of relief or results and no patient testimonials, at the visit or in messages [ES1 arts. 1, 4.4, 4.7].
+- No promise of relief or results and no patient testimonials in messages or any other promotion [ES1 arts. 1, 4.4, 4.7]; at the visit itself too (inference, medium).
 - Before payment the patient gets the plan's terms: visits, total price, payment, duration and how to cancel; if sessions expire, say so then [ES2 art. 60].
-- A chiropractic or osteopathy pack sold at a distance (phone, WhatsApp, online) gives 14 days to withdraw: send the withdrawal information and form, and to start within them get the patient's request in writing. Non-medical aesthetics too (medium). Physio, dental and medical care don't have this right (nor a practitioner who is also a physio or doctor), and neither does a pack agreed in the clinic [ES2 arts. 92, 93 b), 98.8, 102].
+- A chiropractic or osteopathy pack agreed entirely at a distance, with no face-to-face meeting before it is agreed (phone, WhatsApp, online), gives 14 days to withdraw: send the withdrawal information and form, and to start within them get the patient's request in writing. Non-medical aesthetics too (medium). Physio, dental and medical care don't have this right (nor a practitioner who is also a physio or doctor), and neither does a pack agreed in the clinic [ES2 arts. 92, 93 b), 98.8, 102]. A plan presented in the clinic and accepted or paid later by message is most likely not a distance sale (inference, medium): don't tell the patient they have or lack this right; give the clinic's own cancellation terms.
 
 **United Kingdom** (GCC Code, in force since 1 January 2026)
 - The clinical plan comes first and the payment plan is separate; a prepaid pack never covers more care than that plan, so the full plan is the largest option allowed. No pressure to commit financially [UK1 C10].
 - The payment agreement says how unused care is refunded [UK1 C10].
 - Before the patient agrees: the alternatives, what to expect without care, and where a proposal lacks good evidence [UK1 D6, D7].
 - Continue or renew only after a formal reassessment [UK1 D9, D10].
-- A plan agreed by phone, WhatsApp, email or online with no face-to-face meeting gives 14 days to cancel (medium for an occasional WhatsApp sale rather than an organised way of selling at a distance): the information and cancellation form before the patient commits, and their express request to start within the 14 days; if they then cancel, they pay only for the care received. A plan agreed in the clinic has no legal cooling-off [UK2 regs 5, 13, 29–31, 36].
+- A plan agreed entirely by phone, WhatsApp, email or online, with no face-to-face meeting, gives 14 days to cancel (medium for an occasional WhatsApp sale rather than an organised way of selling at a distance): the information and cancellation form before the patient commits, and their express request to start within the 14 days; if they then cancel, they pay only for the care received. A plan agreed in the clinic has no legal cooling-off [UK2 regs 5, 13, 27, 29–31, 34, 36]. A plan presented in the clinic and accepted or paid later by message is most likely not a distance sale (inference, medium): don't tell the patient they have or lack this right; give the clinic's own cancellation terms.
 
 **Australia**
 - Recommend only the care the clinical need justifies [AU1 s.1.3]. No message or offer that pushes regular visits or a prepaid plan without a clinical reason, or says health will suffer without the service [AU3 ss.4.4, 4.5].
