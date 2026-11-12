@@ -80,9 +80,18 @@ hermes plugins enable quiroads-clinic-marketing
 
 Once a skill is installed, ask your agent in your own words, for example «who controls my clinic's Meta ad account?» or «revisa este anuncio de mi clínica antes de publicarlo».
 
+## MCP server
+
+QuiroAds also runs a public MCP server with the same four playbooks and three tools built from them: a health ad copy scan, a lead funnel calculator and a care plan calculator. It needs no account and stores nothing it is sent.
+
+- Server URL: `https://quiroads.com/mcp` (Streamable HTTP, no authentication)
+- How to connect it to Claude, ChatGPT, Cursor or VS Code: https://quiroads.com/mcp-server
+
+The repository root holds an `mcp.json` in the open Agent Plugins format that points to it.
+
 ## Privacy and support
 
-The skills are plain instructions in `SKILL.md` files. They run inside your own agent, bundle no scripts or MCP servers, ask for no credentials, connect to no ad platform or clinic software, read no web pages and send nothing to QuiroAds. They work only from what you paste or describe to your agent: ad copy, what you see on a screen, counts and stages. A skill never needs patient names or records, so don't paste any into the chat. They are not legal advice: they report the problems they find with the rules as checked on a stated date, and the final decision on an ad belongs to the platform and the regulator. Maintainers build and test this repository with private tooling; the plugin itself is only the files you see here.
+The skills are plain instructions in `SKILL.md` files. They run inside your own agent, bundle no scripts, ask for no credentials, connect to no ad platform or clinic software, read no web pages and send nothing to QuiroAds. The plugin's mcp.json points to QuiroAds' public MCP server, https://quiroads.com/mcp, which needs no account and stores nothing it is sent. They work only from what you paste or describe to your agent: ad copy, what you see on a screen, counts and stages. A skill never needs patient names or records, so don't paste any into the chat. They are not legal advice: they report the problems they find with the rules as checked on a stated date, and the final decision on an ad belongs to the platform and the regulator. Maintainers build and test this repository with private tooling; the plugin itself is only the files you see here.
 
 - Privacy policy: https://quiroads.com/privacy-policy
 - Terms: https://quiroads.com/terms
