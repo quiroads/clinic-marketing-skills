@@ -67,7 +67,7 @@ Certainty is high unless marked medium.
 
 ### Meta (every country)
 
-| # | Rule | Source |
+| # | Rule | Cited source |
 |---|---|---|
 | P1 | No assertion or implication that the viewer has a health condition, directly or indirectly: «you/your» plus a condition, in questions or statements. It is Meta's policy, not a law. «You/your» without a condition is fine, and so is describing the service («Chiropractic care for neck pain»). | M3 |
 | P2 | Dietary, health, weight-loss and cosmetic products, procedures and surgeries target 18+. Whether a chiropractic or physio service counts is not clear (medium): set 18+ by default and say it's an interpretation. | M2 |
@@ -90,7 +90,7 @@ Certainty is high unless marked medium.
 
 ### Google Ads
 
-| # | Rule | Source |
+| # | Rule | Cited source |
 |---|---|---|
 | G1 | Health is a sensitive interest category: no Customer Match, remarketing, lookalike segments or audience expansion for campaigns about health treatment (medium on whether a given campaign counts). | G3, G4 |
 | G2 | No personalised ads to users under 18. | G3 |
@@ -120,7 +120,7 @@ Headings and column names in the user's language; each fact once.
 **Rules used:** [country and region; clinic type and status; files read; any assumption]
 **[count] block publishing, [count] risks, [count] improvements.**
 
-| # | Exact phrase | Rule | Source | Certainty | Severity | Safer version |
+| # | Exact phrase | Rule | Cited source | Certainty | Severity | Safer version |
 | --- | --- | --- | --- | --- | --- | --- |
 
 ## The piece rewritten

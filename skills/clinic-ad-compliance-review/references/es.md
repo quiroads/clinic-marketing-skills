@@ -15,7 +15,7 @@ Rules checked: November 2026
 
 It covers advertising «directa o indirecta, masiva o individualizada» of services with a claimed health purpose [ES1 art. 1]: ads, landing pages, organic posts and one-to-one WhatsApp sales messages.
 
-| # | Rule | Source |
+| # | Rule | Cited source |
 |---|---|---|
 | S1 | Only authorised health centres may use words that suggest health activity. Their ads keep to the authorised services and show the registration number from the regional health authority (or the number of a specific health-advertising authorisation). A centre that isn't authorised: flag every word that implies health activity. The law doesn't list the words: treat treatment, patient, diagnosis, therapy and named conditions as high risk (medium on the word list). | ES5 art. 6.2; ES8 (Madrid, Decreto 51/2006 art. 21 b)) |
 | S2 | Advertising only the services covered by the authorisation; anything else needs prior authorisation from the health authority (also beauty, slimming and aesthetic centres). | ES1 art. 6 |
@@ -51,7 +51,7 @@ S1's words count for a centre that isn't authorised. S4 also covers a patient's 
 
 ## 3. Consumer law, reviews and lead forms
 
-| # | Rule | Source |
+| # | Rule | Cited source |
 |---|---|---|
 | S15 | Falsely claiming that a service can cure illnesses, dysfunctions or malformations is always unfair. | ES17 art. 23.3; EU1 Annex I no. 17 |
 | S16 | No false «limited time» claim: «solo hoy», countdowns and «últimas plazas» only if true, with evidence. | ES17 art. 23.4 |
@@ -70,7 +70,7 @@ S16's phrases are a problem only when they aren't true; S17's first one, when so
 
 ## 4. Regional rules
 
-| Region | Rule | Source |
+| Region | Rule | Cited source |
 |---|---|---|
 | Euskadi | Every health ad needs prior authorisation, including ads from centres that aren't health centres; the authorisation number appears on every ad. A health centre shows the qualification of the professional responsible; any other centre says «CENTRO NO SANITARIO». Don't let it launch until the clinic gives its number. Decreto 550/1991 itself wasn't read: its scope comes from the procedure page. | ES12 |
 | Cataluña | Decret 203/2026 (DOGC 5 November 2026, in force 20 days after publication; Decret 151/2017, which it repeals, had equivalent rules): authorised centres advertise only their authorised activity and include their registry code; any other advertising is evaluated and authorised beforehand, except advertising about activities that aren't health activities; the trade name doesn't mislead about the authorised activities; shared multi-practitioner spaces don't present themselves as one health centre. | ES10 art. 5 |

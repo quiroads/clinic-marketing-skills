@@ -6,7 +6,7 @@ Rules checked: November 2026
 
 ## 1. Federal rules (FTC, Medicare)
 
-| # | Rule | Source |
+| # | Rule | Cited source |
 |---|---|---|
 | F1 | A health benefit claim for a service needs competent and reliable scientific evidence, generally randomized controlled human trials, before the ad runs. Patient experiences and the practitioner's own observations are not substantiation. High on the statute (it covers «services»); medium on applying the FTC's product guidance to services. Ask for the study behind each efficacy claim; if there is none, describe the service without a promised outcome. | US1; US2 |
 | F2 | A testimonial about results is read as the typical result. If it isn't typical, disclose clearly what patients generally get; «results not typical» alone doesn't meet the rule (inference from the text). A health testimonial needs the same evidence as if the clinic made the claim. | US3 s.255.2(b) |
@@ -25,7 +25,7 @@ F2 also covers a patient quote with a result and nothing about typical results; 
 
 ## 2. Texas
 
-| # | Rule | Source |
+| # | Rule | Cited source |
 |---|---|---|
 | T1 | Health-care advertising may not contain a testimonial, create an unjustified expectation about results, make unsubstantiated comparisons, or play on the fears or emotions of susceptible patients. Remove patient testimonials from ads and landing pages, review widgets used as advertising included. High on the text; medium on which professions it covers. | US7 s.101.201(b) |
 | T2 | Chiropractors: a «free» service lists all the component services it includes; research-based claims identify the study; no guarantees, cures, claims outside chiropractic scope, results beyond scientific proof, or a false expectation of harm from not being treated (medium: text read through a reproduction). | US8 22 TAC 77.1, 77.4 |
@@ -38,7 +38,7 @@ T1 also covers any patient testimonial.
 
 ## 3. Florida
 
-| # | Rule | Source |
+| # | Rule | Cited source |
 |---|---|---|
 | FL1 | Any ad for a free, discounted-fee or reduced-fee service, examination or treatment by a licensee under the chapters s.456.062 lists (chapter 460, chiropractic medicine, among them; check the others for other professions) carries this statement in capital letters, clearly distinguishable from the rest of the text. On radio or TV it is read aloud or shown for at least 15 seconds. Copy it exactly from below the table. | US9; US10 |
 | FL2 | Every chiropractic ad names the chiropractor and their degree. A «free x-ray» ad also says x-rays are given only if medically necessary. | US10 |
@@ -56,7 +56,7 @@ THE PATIENT AND ANY OTHER PERSON RESPONSIBLE FOR PAYMENT HAS A RIGHT TO REFUSE T
 
 ## 4. California
 
-| # | Rule | Source |
+| # | Rule | Cited source |
 |---|---|---|
 | CA1 | Chiropractors: no distorted, sensational or fabulous statements. | US11 16 CCR 311 |
 | CA2 | A free or discounted service: no other charge in that visit unless the patient was told the cost first and agreed; the evaluation of a free test isn't billed separately. | US11 16 CCR 319 |
@@ -64,7 +64,7 @@ THE PATIENT AND ANY OTHER PERSON RESPONSIBLE FOR PAYMENT HAS A RIGHT TO REFUSE T
 
 ## 5. New York
 
-| # | Rule | Source |
+| # | Rule | Cited source |
 |---|---|---|
 | NY1 | Testimonials only with the patient's express written authorization, identity disclosures and reasonable disclaimers; no fictional testimonials. No guarantee of any service; no unsubstantiated or superiority claims; no bonus or inducement other than a discount; a fixed price states the period it applies to and any integral extra charges. Keep an exact copy of each ad for one year. | US13 8 NYCRR 29.1(b) |
 

@@ -18,7 +18,7 @@ It applies to practitioners, people who aren't registered and companies. Whoever
 
 ## 2. Rules
 
-| # | Rule | Source |
+| # | Rule | Cited source |
 |---|---|---|
 | A1 | A testimonial is any positive statement about the clinical aspects of a service: a symptom, diagnosis, treatment or outcome. It can't be used in advertising, even if genuine, and that includes reviews the clinic republishes, shares, embeds or boosts, and patient stories. Comments only about customer service or communication aren't testimonials. The clinic answers for reviews on its own website and social media (turning the reviews function off is one way); it isn't responsible for reviews on platforms it doesn't control, but engaging with them may count as using a testimonial. | AU2 s.4.3; AU4; AU5 |
 | A2 | Offers state their terms and conditions (who qualifies, what's included, expiry, total price), in the ad or easily found from it. «Free» means absolutely free: not recovered through a price rise or through other sources such as Medicare. | AU1 s.133(1)(b); AU2 s.4.2 |

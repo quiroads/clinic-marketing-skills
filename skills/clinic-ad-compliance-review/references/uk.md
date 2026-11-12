@@ -13,7 +13,7 @@ Rules checked: November 2026
 
 ## 2. Rules for every clinic
 
-| # | Rule | Source |
+| # | Rule | Cited source |
 |---|---|---|
 | U1 | Hold documentary evidence before publishing any objective claim; health claims need human studies. Anything outside the ASA lists in section 3 counts as unsupported unless the clinic has that evidence. | UKA1 r.3.7; UKA3 r.12.1; UKA23 |
 | U2 | No misleading claim, exaggeration or overall impression, even when each statement is true: assess the whole ad, images included. | UKA1 rr.3.1, 3.11; UKL3 |
@@ -63,7 +63,7 @@ ASA examples of acceptable wording [UKA8]: «Conditions we treat: Sciatica»; «
 
 ## 4. Titles, registration and chiropractic claims
 
-| # | Rule | Source |
+| # | Rule | Cited source |
 |---|---|---|
 | U15 | A chiropractor's «Dr» is qualified straight away, in the same statement: «Doctor of Chiropractic», a courtesy title, no general medical qualification. «DC» alone isn't enough; only GCC-registered chiropractors may use it. | UKA9; UKA10 |
 | U16 | Osteopaths without a general medical qualification avoid «Dr»; dentists don't imply a medical qualification. | UKA11; UKA20; UKA22 |
